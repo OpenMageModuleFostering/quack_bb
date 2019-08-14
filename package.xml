@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+    <name>quack_bb</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl.txt">GNU general public license</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>M&#xF3;dulo de pagamentos Banco do Brasil para Magento. Desenvolvido a partir do Manual de Orienta&#xE7;&#xF5;es T&#xE9;cnicas, fornecido pelo Banco do Brasil.</summary>
+    <description>M&#xF3;dulo de pagamentos Banco do Brasil para Magento.&#xD;
+&#xD;
+Esta extens&#xE3;o tem por objetivo gerenciar pagamentos realizados atrav&#xE9;s do conv&#xEA;nio de com&#xE9;rcio eletr&#xF4;nico do Banco do Brasil.&#xD;
+&#xD;
+ - Recebe pagamentos de forma autom&#xE1;tica, sem necessidade de confirma&#xE7;&#xE3;o manual.&#xD;
+ - Livre de intermedi&#xE1;rios, ou gateways de pagamentos.&#xD;
+ - Extens&#xE3;o completamente gratuita, sem propagandas, ou vers&#xF5;es pagas.&#xD;
+&#xD;
+</description>
+    <notes>Requisitos:&#xD;
+&#xD;
+ - Ser cliente BB&#xD;
+ - Aderir ao regulamento do Com&#xE9;rcio Eletr&#xF4;nico do BB&#xD;
+ - Formalizar os conv&#xEA;nios para as modalidades de meio de pagamento escolhidas</notes>
+    <authors><author><name>Rafael Patro</name><user>haphaews</user><email>rafaelpatro@gmail.com</email></author></authors>
+    <date>2015-08-16</date>
+    <time>20:02:54</time>
+    <contents><target name="magecommunity"><dir name="Quack"><dir name="BB"><dir name="Block"><file name="Form.php" hash="487e2e426474e30c83f4cf557138d0fc"/><file name="Redirect.php" hash="d8c70382f2efe5ad515be6949685e617"/></dir><dir name="Helper"><file name="Data.php" hash="0baec89c036fcf99c7b6be0ce5e9f49c"/></dir><dir name="Model"><file name="Observer.php" hash="82c807ab9ba2365b155f03800153f1a2"/><file name="Session.php" hash="d514012efb73ea12e9eb1a544fbb25a5"/><file name="Sonda.php" hash="71934267a0a5e7fcb7397edb30995d9b"/><dir name="Source"><file name="TpPagamento.php" hash="ded1fd6a84af631230d86759502c2042"/></dir><file name="Standard.php" hash="3142282d1893c1a1ca6da16da2ca3176"/></dir><dir name="controllers"><file name="StandardController.php" hash="15134bbfa6066bde75f37007beb33c4c"/></dir><dir name="etc"><file name="config.xml" hash="eca5ff9c7942c3a110ea94787ab9af14"/><file name="system.xml" hash="ed540ff827a5a748b32b31790673b605"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="bb"><dir name="email"><file name="redirect.phtml" hash="3823a6600038ec94b52a8597b7b07769"/></dir><file name="form.phtml" hash="cf7d0ae95d126e3dbbb69cd7d30e71d9"/><dir name="info"><file name="redirect.phtml" hash="f043effbc030f551bb85ef8d59fe3e4b"/></dir><file name="redirect.phtml" hash="7f85f10536d055a6f4c894277855ed4c"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Quack_BB.xml" hash="728912444f56047563036c4883112fb5"/></dir></target><target name="magelocale"><dir name="pt_BR"><file name="Quack_BB.csv" hash="228f0546a1eb7ee5a56cd6dd4bf7d22d"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.4.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
