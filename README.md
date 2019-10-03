@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Módulo de pagamentos Banco do Brasil para Magento. Desenvolvido a partir do Manual de Orientações Técnicas, fornecido pelo Banco do Brasil.
