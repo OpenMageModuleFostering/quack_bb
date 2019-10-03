@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/quack_bb",
+    "name": "OpenMageModuleFostering\/quack_bb",
     "type": "magento-module",
     "license": "GNU-general-public-license",
     "homepage": "",
-    "description": "Módulo de pagamentos Banco do Brasil para Magento. Desenvolvido a partir do Manual de Orientações Técnicas, fornecido pelo Banco do Brasil.",
+    "description": "M\u00f3dulo de pagamentos Banco do Brasil para Magento. Desenvolvido a partir do Manual de Orienta\u00e7\u00f5es T\u00e9cnicas, fornecido pelo Banco do Brasil.",
     "authors": [
-    {
-        "name": "Rafael Patro",
-        "email": "rafaelpatro@gmail.com"
-    }
-],
+        {
+            "name": "Rafael Patro",
+            "email": "rafaelpatro@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
